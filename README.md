@@ -63,6 +63,8 @@ image – this can reduce the size of your final image by ~35MB or so.
 
 ```Dockerfile
 # This stage installs our modules
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgp-fossa%2Falpine-node.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgp-fossa%2Falpine-node?ref=badge_shield)
+
 FROM mhart/alpine-node:12
 WORKDIR /app
 COPY package.json package-lock.json ./
@@ -127,3 +129,7 @@ Inspired by:
 - https://github.com/alpinelinux/aports/blob/454db196/main/nodejs/APKBUILD
 - https://github.com/alpinelinux/aports/blob/454db196/main/libuv/APKBUILD
 - https://hub.docker.com/r/ficusio/nodejs-base/~/dockerfile/
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgp-fossa%2Falpine-node.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgp-fossa%2Falpine-node?ref=badge_large)
